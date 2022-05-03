@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877161529804",
+    "project_id": "redbus-clone-2ae00",
+    "storage_bucket": "redbus-clone-2ae00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877161529804:android:14fdcc9b6ef41dcd35dd69",
+        "android_client_info": {
+          "package_name": "com.example.bus_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877161529804-o5dlbvgj3b4rv38lt3vt5uhcmtfukis6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiTprIX9h-scpumXmMoCRfRpB6HwYJodI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877161529804-o5dlbvgj3b4rv38lt3vt5uhcmtfukis6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
