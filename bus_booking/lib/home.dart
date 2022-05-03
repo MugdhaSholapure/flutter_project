@@ -15,6 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   TextEditingController fromController = new TextEditingController();
   TextEditingController toController = new TextEditingController();
+  TextEditingController dateController = new TextEditingController();
 
   final formats = DateFormat("yyyy-MM-dd");
   late DateTime journeys;
@@ -73,7 +74,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     TextFormField(
-                      controller: fromController,
+                      controller: toController,
                       decoration: const InputDecoration(
                         labelText: 'To',
                       ),
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       //Text("Journey Date"),
                       TextFormField(
-                        controller: fromController,
+                        controller: dateController,
                         decoration: const InputDecoration(
                           labelText: 'Journey Date',
                         ),

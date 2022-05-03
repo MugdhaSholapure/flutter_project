@@ -46,6 +46,7 @@ class SignupPage extends StatefulWidget {
 
 final _nameController = TextEditingController();
 final _emailController = TextEditingController();
+final _phoneController = TextEditingController();
 
 class _SignupPageState extends State<SignupPage> {
   @override
@@ -139,7 +140,7 @@ class _SignupPageState extends State<SignupPage> {
                 child: Container(
                     height: 50,
                     child: TextFormField(
-                      controller: _emailController,
+                      controller: null,
                       decoration:
                           const InputDecoration(hintText: 'Phone Number'),
                     )),
